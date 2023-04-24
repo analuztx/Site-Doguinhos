@@ -1,7 +1,7 @@
-/*html{
+html{
     scroll-behavior: smooth;
 }
-*/
+*
 
 *{
     margin: 0;
@@ -161,6 +161,7 @@ img{
 .site{
     margin-top: 200px;
     background-color: #2e0950;
+    filter: blur(10%);
 }
 
 .parallax{
@@ -170,7 +171,7 @@ img{
     opacity: 0.5;
     background-size: cover;
     background-attachment: fixed;
-
+    filter: blur(10px);
 }
 
 .nosso-site1{
@@ -184,6 +185,12 @@ img{
     border-radius: 10px;
 }
 
+.nosso-site1:hover{
+    background-color:#6a21ae;
+    color: #fff;
+    transition: 0.3s;
+}
+
 .nosso-site2{
     background-color: #fff;
     width: 250px;
@@ -195,6 +202,12 @@ img{
     border-radius: 10px;
 }
 
+.nosso-site2:hover{
+    background-color:#6a21ae;
+    color: #fff;
+    transition: 0.3s;
+}
+
 .nosso-site3{
     background-color: #fff;
     width: 250px;
@@ -204,6 +217,12 @@ img{
     margin-top: 100px;
     opacity: 0.9;
     border-radius: 10px;
+}
+
+.nosso-site3:hover{
+    background-color:#6a21ae;
+    color: #fff;
+    transition: 0.3s;
 }
 
 .nosso-site{
@@ -271,15 +290,15 @@ img{
 .loki-about{
     width: 100%;
     height:550px;
-    background-color: #a099b1;
+    background-color: #533D88;
     margin-top: 480px;
 }
 
 .loki-about img{
     border-radius: 10px;
     position: absolute;
-    right: -0px;
-    margin-top: 0px;
+    right: 200px;
+    margin-top: 40px;
     box-shadow: 0px 0px 50px #2e0950dc;
 }
 
@@ -303,20 +322,20 @@ img{
 
 .about-max{
     margin-top: 50px;
-    background-color: #a099b1;
+    background-color: #533D88;
 }
 
 .about-max img{
     border-radius: 5px;
-    margin-left: 0;
-    margin-top: 0px;
+    margin-left: 160px;
+    margin-top: 40px;
     box-shadow: 0px 0px 50px #2e0950dc;
 }
 
 .about-max h2{
-    color: #2e0950;
+    color: #ffffff;
     position: absolute;
-    margin-top: 2em;
+    margin-top: 0em;
     margin-left: 1250px;
     font-size: 32px;
 }
@@ -327,12 +346,13 @@ img{
     font-size: 18px;
     position: absolute;
     width: 700px;
-    margin-left: 150px;
+    margin-left: 630px;
     margin-top: 140px;
+    text-align: right;
 }
 
 .about-dogs{
-    background-color: #a099b1;
+    background-color: #533D88;
 }
 
 hr{
@@ -341,6 +361,61 @@ hr{
     height: 0px;
     display: inline-block;
     margin-left: 34%;
+}
+
+.about span{
+    display: block;
+    color: #fff;
+    font-family: 'montserrat';
+    position: absolute;
+    margin-left: 20%;
+}
+
+.card-max span{
+    margin-left: 21.5%;
+}
+
+.card-theo span{
+    margin-left: 21.2%;
+}
+
+.theo-about{
+    width: 100%;
+    height:550px;
+    background-color: #533D88;
+    margin-top: 40px;
+}
+
+.theo-about img{
+    border-radius: 10px;
+    position: absolute;
+    right: 200px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 50px #2e0950dc;
+}
+
+.theo-about h2{
+    color: #fff;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 150px;
+    font-size: 32px;
+}
+
+.theo-about h5{
+    color: #FFF;
+    font-family: 'montserrat';
+    font-size: 18px;
+    position: absolute;
+    width: 700px;
+    margin-left: 150px;
+    margin-top: 140px;
+}
+
+.wave-4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 @font-face {
