@@ -186,7 +186,8 @@ img{
 }
 
 .nosso-site1:hover{
-    background-color:#6a21ae;
+    background-color:#8f48d1;
+    transform: scale(1.1);
     color: #fff;
     transition: 0.3s;
 }
@@ -203,8 +204,9 @@ img{
 }
 
 .nosso-site2:hover{
-    background-color:#6a21ae;
+    background-color:#8f48d1;
     color: #fff;
+    transform: scale(1.1);
     transition: 0.3s;
 }
 
@@ -220,9 +222,10 @@ img{
 }
 
 .nosso-site3:hover{
-    background-color:#6a21ae;
+    background-color:#8f48d1;
     color: #fff;
     transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .nosso-site{
@@ -356,11 +359,11 @@ img{
 }
 
 hr{
-    width: 500px;
+    width: 1160px;
     color: #FFF;
     height: 0px;
     display: inline-block;
-    margin-left: 34%;
+    margin-left: 10.5%;
 }
 
 .about span{
@@ -416,6 +419,35 @@ hr{
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.footer h5{
+    font-size: 17px;
+    font-family: 'montserrat';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -170px;
+    color: #2e0950;
+}
+
+.footer span{
+    color: #2e0950;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'montserrat';
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer a:hover{
+    font-weight: 700;
+    transition: 0.2s;
+    width: 15px;
 }
 
 @font-face {
