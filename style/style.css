@@ -60,6 +60,18 @@ h3{
     background-color: #fff;
 }
 
+.header h1{
+    margin-left: 10%;
+    font-size: 80px;
+    margin-top: 6%;
+}
+
+.header span{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
 h1{
     position: absolute;
     color: white;
@@ -448,6 +460,11 @@ hr{
     font-weight: 700;
     transition: 0.2s;
     width: 15px;
+}
+
+.text-nav h3:hover{
+    text-decoration: underline;
+    
 }
 
 @font-face {
